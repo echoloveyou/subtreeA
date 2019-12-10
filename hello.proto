@@ -11,7 +11,7 @@ message Response {
 }
 
 service Hello {
-    rpc HelloWorlds(Request) returns(Response);
+    rpc HelloWorlda(Request) returns(Response);
 
 }
 //protoc --micro_out=. --go_out=. ./hello.prot
